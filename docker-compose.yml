@@ -29,5 +29,6 @@ services:
       DDBB_DATABASE: fei2022
       DDBB_PASSWORD: fei2022
       DDBB_HOST: db
+      PHP_USER_ID: 1000
     ports:
       - 8000:80
